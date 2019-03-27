@@ -35,7 +35,7 @@ tickets = Ticket.create
 #Each user must have bought one ticket for each event.
 orders = Order.create
   ([ {user_id: 1}, {user_id: 2}, {user_id: 3}, {user_id: 4}, {user_id: 5},])
-tickets_orders = TicketOrder.create
+ticket_orders = TicketOrder.create
   ([ {order_id: 1, ticket_id: 9, amount: 2},
     {order_id: 2, ticket_id: 7, amount: 3},
     {order_id: 3, ticket_id: 1, amount: 1},
