@@ -22,15 +22,15 @@ events = Event.create
 
 #Each event must have at least three ticket categories.
 tickets = Ticket.create
-  ([ {event_id: 1, price: 568400, categorie: "Vip"},
-    {event_id: 1, price: 367500, categorie: "Golden"},
-    {event_id: 1, price: 128600, categorie: "Andes"},
-    {event_id: 2, price: 250300, categorie: "Pacífico"},
-    {event_id: 2, price: 367800, categorie: "Silver"},
-    {event_id: 2, price: 728900, categorie: "Diamante"},
-    {event_id: 3, price: 121500, categorie: "Galería"},
-    {event_id: 3, price: 355200, categorie: "Vip"},
-    {event_id: 3 ,price: 280100, categorie: "Golden"}])
+  ([ {event_id: 1, price: 568400, category: "Vip"},
+    {event_id: 1, price: 367500, category: "Golden"},
+    {event_id: 1, price: 128600, category: "Andes"},
+    {event_id: 2, price: 250300, category: "Pacífico"},
+    {event_id: 2, price: 367800, category: "Silver"},
+    {event_id: 2, price: 728900, category: "Diamante"},
+    {event_id: 3, price: 121500, category: "Galería"},
+    {event_id: 3, price: 355200, category: "Vip"},
+    {event_id: 3 ,price: 280100, category: "Golden"}])
 
 #Each user must have bought one ticket for each event.
 orders = Order.create
