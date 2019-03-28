@@ -21,4 +21,10 @@ class User < ApplicationRecord
     return prices.max
   end
 
+  #def last_event
+  #  self.orders.each do |order|
+#        Event.where()
+#        end
+#    end
+  #end
 end

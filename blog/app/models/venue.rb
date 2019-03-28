@@ -1,3 +1,3 @@
 class Venue < ApplicationRecord
-  has_many :Events
+  has_many :events
 end
