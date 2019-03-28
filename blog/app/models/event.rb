@@ -1,4 +1,4 @@
 class Event < ApplicationRecord
-  has_one :venue
-  #belongs_to :ticket
+  has_many :tickets
+  belongs_to :Venue
 end
