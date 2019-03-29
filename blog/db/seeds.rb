@@ -35,6 +35,7 @@
 # Ticket.create(event_id: 3, price: 355200, category: "Vip")
 # Ticket.create(event_id: 3 ,price: 280100, category: "Golden")
 
+# Ticket.create(event_id: 2, price: 367800, category: "Silver")
 # #Each user must have bought one ticket for each event.
 
 # Order.create(user_id: 1)
